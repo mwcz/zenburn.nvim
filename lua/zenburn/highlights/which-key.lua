@@ -1,4 +1,4 @@
-local c = require("icecube.palette")
+local c = require("zenburn.palette")
 return {
 	WhichKey = { fg = c.Function.fg, bold = true }, -- the key
 	WhichKeyGroup = { fg = c.Float.fg }, -- a group

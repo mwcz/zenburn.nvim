@@ -1,4 +1,4 @@
-local c = require("icecube.palette")
+local c = require("zenburn.palette")
 return {
 	normal = {
 		a = { bg = c.SpecialComment.fg, fg = c.Normal.bg },

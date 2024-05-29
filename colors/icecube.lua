@@ -1,1 +1,0 @@
-require("icecube").setup()

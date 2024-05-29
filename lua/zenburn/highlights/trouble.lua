@@ -1,5 +1,5 @@
-local c = require("icecube.palette")
-local d = require("icecube.highlights.diagnostic")
+local c = require("zenburn.palette")
+local d = require("zenburn.highlights.diagnostic")
 return {
 	TroubleCode = { fg = c.Comment.fg },
 	TroubleCount = { fg = c.Normal.fg },

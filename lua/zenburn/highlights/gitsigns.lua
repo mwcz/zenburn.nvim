@@ -1,7 +1,7 @@
-local c = require("icecube.palette")
-local colors = require("icecube.colors")
+local c = require("zenburn.palette")
+local colors = require("zenburn.colors")
 return {
-	GitSignsAdd = { fg = colors.teal500 },
+	GitSignsAdd = { fg = colors.teal600 },
 	GitSignsAddNr = { fg = c.Comment.fg },
 	GitSignsAddLn = { bg = c.Comment.fg },
 	GitSignsChange = { fg = c.Label.fg },

@@ -1,6 +1,6 @@
-local palette = require("icecube.palette")
-local colors = require("icecube.colors")
-local color_ops = require("icecube.color-ops")
+local palette = require("zenburn.palette")
+local colors = require("zenburn.colors")
+local color_ops = require("zenburn.color-ops")
 
 return {
 	["@markup.strong"] = { bold = true },
@@ -15,16 +15,13 @@ return {
 	-- TODO make heading markers grey
 	["@markup.heading"] = { fg = colors.grey500 }, -- headings, titles (including markers)
 
-	["@markup.quote"] = { fg = colors.slateblue800 }, -- block quotes
-	["@markup.math"] = { fg = colors.slateblue800 }, -- math environments (e.g. `$ ... $` in LaTeX)
-	["@markup.environment"] = { fg = colors.slateblue800 }, -- environments (e.g. in LaTeX)
 	["@markup.link"] = palette.Operator, -- text references, footnotes, citations, etc.
 	["@markup.link.label"] = { fg = colors.orange500 }, -- link, reference descriptions
 	["@markup.link.url"] = { fg = colors.skyblue300 }, -- URL-style links
 	["@markup.raw"] = { fg = colors.orange500 },
 	-- ['@markup.raw.block']      = { link = '@comment' },               -- literal or verbatim text as a stand-alone block
 	["@markup.list"] = palette.Operator, -- list markers
-	["@markup.list.checked"] = { fg = colors.seagreen600 }, -- checked todo-style list markers
+	["@markup.list.checked"] = { fg = colors.salmon }, -- checked todo-style list markers
 	["@markup.list.unchecked"] = { fg = colors.salmon500 }, -- unchecked todo-style list markers
 	-- ['@tag']                   = { link = '@punctuation.delimiter' }, -- XML-style tag names (e.g. in XML, HTML, etc.)
 	-- ['@tag.attribute']         = { link = '@attribute' },             -- XML-style tag attributes

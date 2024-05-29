@@ -1,9 +1,9 @@
-Icecube
+Zenburn
 =======
 
 A cool, icy colorscheme based heavily on Iceberg and built using zenburn.nvim as a template.
 
-![screenshot of some Rust code with icecube.nvim](./images/screenshot01.png)
+![screenshot of some Rust code with zenburn.nvim](./images/screenshot01.png)
 
 Installation
 ------------
@@ -13,15 +13,15 @@ Using your favorite package manager:
 [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug "mwcz/icecube.nvim"
+Plug "mwcz/zenburn.nvim"
 ```
 
 [packer](https://github.com/wbthomason/packer.nvim)
 
 ```lua
 use {
-    "mwcz/icecube.nvim",
-    config = function() require("icecube").setup() end
+    "mwcz/zenburn.nvim",
+    config = function() require("zenburn").setup() end
 }
 ```
 
@@ -29,7 +29,7 @@ use {
 
 ```lua
 require("paq") {
-    "mwcz/icecube.nvim";
+    "mwcz/zenburn.nvim";
 }
 ```
 
@@ -39,13 +39,13 @@ Setup
 With VimScript:
 
 ```vim
-colorscheme icecube
+colorscheme zenburn
 ```
 
 With lua:
 
 ```lua
-require("icecube").setup()
+require("zenburn").setup()
 ```
 
 To set the theme in lualine:
@@ -53,7 +53,7 @@ To set the theme in lualine:
 ```lua
 require("lualine").setup {
     options = {
-        theme = "icecube",
+        theme = "zenburn",
     }
 }
 ```
@@ -61,7 +61,7 @@ require("lualine").setup {
 Status
 ------
 
-Icecube is in *Alpha* status, being based on Zenburm.nvim which is itself in
+Zenburn is in *Alpha* status, being based on Zenburm.nvim which is itself in
 alpha. I created this by copying the colors from Iceberg's `iceberg.vim` file
 into the Zenburn.nvim repo.  Probably a bad move, but I felt more comfortable
 with the lua-based layout of Zenburn.nvim, and wanted to use it to make tweaks

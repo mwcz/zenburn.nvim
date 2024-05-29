@@ -1,5 +1,5 @@
-local c = require("icecube.palette")
-local colors = require("icecube.colors")
+local c = require("zenburn.palette")
+local colors = require("zenburn.colors")
 return {
 	DiagnosticError = { fg = c.Error.fg, bg = c.SignColumn.bg },
 	DiagnosticWarn = { fg = colors.orange500, bg = c.SignColumn.bg },
