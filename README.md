@@ -1,7 +1,19 @@
 Zenburn
 =======
 
-A cool, icy colorscheme based heavily on Iceberg and built using zenburn.nvim as a template.
+A port of the venerable [Zenburn](https://github.com/jnurmine/Zenburn)
+colorscheme to lua.  Well, it's actually a _port_ of
+[Zenburn.nvim](https://github.com/phha/zenburn.nvim), with a few personal
+tweaks.  All credit to jnurmine for creating the original Zenburn, my all-time
+favorite colorscheme.  And to phha for porting it to lua.  I just tweaked some
+colors.
+
+Zenburn is a low-contrast color scheme for Vim. It’s easy for your eyes and
+designed to keep you in the zone for long programming sessions.
+
+The aim of this port is to bring Zenburn into the modern age, with support for
+[Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and many
+more plugins.
 
 ![screenshot of some Rust code with zenburn.nvim](./images/screenshot01.png)
 

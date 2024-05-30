@@ -1,5 +1,5 @@
 return {
-	-- icecube
+	-- leftover from icecube
 	brown300 = "#392313",
 	burgundy = "#53343b",
 	grey = "#9e9fa1",
@@ -7,32 +7,27 @@ return {
 	grey500 = "#818596",
 	mightnightblue600 = "#272c42",
 	orange500 = "#e2a478",
-	yellow800 = "#fff099",
 	peach600 = "#d2b2b2",
 	peach800 = "#ffcfaf",
 	salmon500 = "#e27878",
 	salmon800 = "#ff6286",
 	seagreen300 = "#33403c",
-	seagreen800 = "#79BD8F",
 	tan1000 = "#d4d5db",
 	teal600 = "#84cfcb",
-	white800 = "#e0e2ea",
 
 	-- zenburn
-	sunsetpurple = "#dca3a3",
-	skyblue300 = "#dfcfaf",
 	dark_sand = "#262626",
-	seagreen900 = "#8cd0d3",
-	yellow300 = "#80d4aa",
+	pale_blue = "#8cd0d3",
+	teal_green = "#80d4aa",
 	black200 = "#1f1f1d",
 	grey800 = "#f7f7f5",
 	tan500 = "#cfbfaf",
 	tan800 = "#dfcfaf",
-	tan900 = "#f0dfaf",
 	tan600 = "#dfdfbf",
-	salmon = "#cc9393",
+	salmon = "#dca3a3",
 	forest_green = "#7f9f7f",
 	hotpink = "#bc6c9c",
+	yellow800 = "#efdd83",
 
 	slateblue100 = "#2c2e2e",
 	slateblue200 = "#333333",
@@ -43,6 +38,7 @@ return {
 	slateblue900 = "#cfcfaf",
 }
 
+-- All the colors from my earlier zenburn-inspired theme.
 -- #000000
 -- #000d18
 -- #040404
