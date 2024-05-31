@@ -47,7 +47,7 @@ return {
 	["@type"] = { fg = colors.tan800 },
 	["@variable.builtin.rust"] = { fg = c.Normal.fg },
 	["@variable"] = { fg = c.Normal.fg },
-	["@function.macro.rust"] = { fg = c.Macro.fg },
+	["@function.macro.rust"] = c.Macro,
 	["@type.builtin.rust"] = { fg = colors.tan800 },
 	["@punctuation.special.rust"] = { fg = c.Operator.fg },
 	TSType = { fg = c.Delimiter.fg },

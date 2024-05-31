@@ -17,7 +17,7 @@ return {
 
 	-- zenburn
 	dark_sand = "#262626",
-	pale_blue = "#8cd0d3",
+	pale_blue = "#76c2d3",
 	teal_green = "#80d4aa",
 	black200 = "#1f1f1d",
 	grey800 = "#f7f7f5",
@@ -28,6 +28,7 @@ return {
 	forest_green = "#7f9f7f",
 	hotpink = "#bc6c9c",
 	yellow800 = "#efdd83",
+	orange300 = "#dfab88",
 
 	slateblue100 = "#2c2e2e",
 	slateblue200 = "#333333",
@@ -36,6 +37,7 @@ return {
 	slateblue500 = "#757574",
 	slateblue600 = "#6e6c68",
 	slateblue900 = "#cfcfaf",
+	slateblue1000 = "#9baaac",
 }
 
 -- All the colors from my earlier zenburn-inspired theme.
