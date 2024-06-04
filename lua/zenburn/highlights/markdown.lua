@@ -4,7 +4,7 @@ local color_ops = require("zenburn.color-ops")
 
 return {
 	["@markup.strong"] = { bold = true },
-	["@markup.italic"] = { fg = colors.grey },
+	["@markup.italic"] = { fg = colors.grey, italic = true },
 	["@markup.heading.1"] = { fg = color_ops.LightenDarkenColor(colors.tan800, 20) },
 	["@markup.heading.2"] = { fg = color_ops.LightenDarkenColor(colors.tan800, 0) },
 	["@markup.heading.3"] = { fg = color_ops.LightenDarkenColor(colors.tan800, -20) },
