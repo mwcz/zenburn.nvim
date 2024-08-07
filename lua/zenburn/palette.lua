@@ -182,7 +182,7 @@ return {
 	cssTagName = { fg = palette.tan800 },
 	deniteMatched = { fg = palette.grey800 },
 	deniteMatchedChar = { fg = palette.orange500 },
-	diffAdded = { fg = palette.salmon },
+	diffAdded = { fg = palette.forest_green },
 	diffRemoved = { fg = palette.salmon500 },
 	graphqlName = { fg = palette.grey800 },
 	graphqlOperator = { fg = palette.grey800 },
