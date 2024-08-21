@@ -5,12 +5,14 @@ local color_ops = require("zenburn.color-ops")
 return {
 	["@markup.strong"] = { bold = true },
 	["@markup.italic"] = { fg = colors.grey, italic = true },
-	["@markup.heading.1"] = { fg = color_ops.LightenDarkenColor(colors.tan800, 20) },
-	["@markup.heading.2"] = { fg = color_ops.LightenDarkenColor(colors.tan800, 0) },
-	["@markup.heading.3"] = { fg = color_ops.LightenDarkenColor(colors.tan800, -20) },
-	["@markup.heading.4"] = { fg = color_ops.LightenDarkenColor(colors.tan800, -40) },
-	["@markup.heading.5"] = { fg = color_ops.LightenDarkenColor(colors.tan800, -60) },
-	["@markup.heading.6"] = { fg = color_ops.LightenDarkenColor(colors.tan800, -80) },
+	["@markup.heading.1"] = { fg = color_ops.LightenDarkenColor(colors.orange300, 20) },
+	["@markup.heading.2"] = { fg = color_ops.LightenDarkenColor(colors.orange300, 0) },
+	["@markup.heading.3"] = { fg = color_ops.LightenDarkenColor(colors.orange300, -20) },
+	["@markup.heading.4"] = { fg = color_ops.LightenDarkenColor(colors.orange300, -40) },
+	["@markup.heading.5"] = { fg = color_ops.LightenDarkenColor(colors.orange300, -60) },
+	["@markup.heading.6"] = { fg = color_ops.LightenDarkenColor(colors.orange300, -80) },
+	["@markup.quote.markdown"] = { fg = colors.tan800 },
+	["@punctuation.special.markdown"] = { fg = colors.tan800 },
 
 	-- TODO make heading markers grey
 	["@markup.heading"] = { fg = colors.grey500 }, -- headings, titles (including markers)

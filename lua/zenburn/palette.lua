@@ -129,7 +129,7 @@ return {
 	SpecialChar = { fg = palette.salmon },
 	SpecialComment = { fg = palette.salmon },
 	SpecialKey = { fg = palette.slateblue600 },
-	SpellBad = { bg = palette.black200, fg = palette.salmon500 },
+	SpellBad = { bg = palette.black200, fg = palette.salmon },
 	StartifyBracket = { fg = palette.forest_green },
 	StartifyFile = { fg = palette.teal600 },
 	StartifyFooter = { fg = palette.salmon },
