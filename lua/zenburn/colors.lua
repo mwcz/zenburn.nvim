@@ -6,7 +6,6 @@ return {
 	grey300 = "#3f3f3f",
 	grey500 = "#818596",
 	mightnightblue600 = "#272c42",
-	orange500 = "#e2a478",
 	peach600 = "#d2b2b2",
 	peach800 = "#ffcfaf",
 	salmon500 = "#e27878",
@@ -29,6 +28,7 @@ return {
 	hotpink = "#bc6c9c",
 	yellow800 = "#efdd83",
 	orange300 = "#dfab88",
+	orange500 = "#e2a478",
 
 	slateblue100 = "#2c2e2e",
 	slateblue200 = "#333333",

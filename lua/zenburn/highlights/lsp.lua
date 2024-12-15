@@ -3,7 +3,7 @@ local colors = require("zenburn.colors")
 return {
 	-- ["@lsp.mod.constant.rust"] = c.Constant,
 	-- ["@lsp.type.builtinType.rust"] = { fg = colors.teal600 },
-	["@lsp.type.lifetime.rust"] = { fg = colors.tan800 },
+	["@lsp.type.lifetime.rust"] = { fg = colors.orange500 },
 	["@lsp.type.macro.rust"] = c.Macro,
 	["@lsp.type.decorator.rust"] = c.Macro,
 	LspReferenceText = {},
