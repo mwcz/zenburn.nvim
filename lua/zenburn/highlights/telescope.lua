@@ -1,18 +1,18 @@
 local palette = require("zenburn.colors")
 local color_ops = require("zenburn.color-ops")
 
-local ts_bg = color_ops.LightenDarkenColor(palette.slateblue300, -10)
+local preview_bg = palette.slateblue200
 local prompt_bg = palette.slateblue300
-local results_bg = palette.slateblue200
+local results_bg = color_ops.LightenDarkenColor(palette.slateblue300, -10)
 
 return {
-	TelescopeBorder = { bg = ts_bg, fg = ts_bg },
+	TelescopeBorder = { bg = preview_bg, fg = preview_bg },
 	TelescopeMatching = { fg = "#a5bf82" },
 	TelescopeMultiIcon = { fg = palette.teal900 },
 	TelescopeMultiSelection = { fg = palette.tan800 },
-	TelescopeNormal = { bg = ts_bg, fg = "#cccccc" },
+	TelescopeNormal = { bg = preview_bg, fg = "#cccccc" },
 	TelescopePreviewBlock = { fg = palette.salmon },
-	TelescopePreviewBorder = { bg = ts_bg, fg = ts_bg },
+	TelescopePreviewBorder = { bg = preview_bg, fg = preview_bg },
 	TelescopePreviewCharDev = { fg = palette.salmon },
 	TelescopePreviewDate = { fg = palette.teal900 },
 	TelescopePreviewDirectory = { fg = palette.teal900 },
@@ -22,9 +22,9 @@ return {
 	TelescopePreviewLine = { bg = "#272c42" },
 	TelescopePreviewLink = { fg = "#a5bf82" },
 	TelescopePreviewMatch = { bg = "#e4aa80", fg = "#392313" },
-	TelescopePreviewMessage = { bg = ts_bg, fg = "#cccccc" },
-	TelescopePreviewMessageFillchar = { bg = ts_bg, fg = "#2b3354" },
-	TelescopePreviewNormal = { bg = ts_bg, fg = "#cccccc" },
+	TelescopePreviewMessage = { bg = preview_bg, fg = "#cccccc" },
+	TelescopePreviewMessageFillchar = { bg = preview_bg, fg = "#2b3354" },
+	TelescopePreviewNormal = { bg = preview_bg, fg = "#cccccc" },
 	TelescopePreviewPipe = { fg = palette.salmon },
 	TelescopePreviewRead = { fg = palette.salmon },
 	TelescopePreviewSize = { fg = palette.teal900 },
@@ -58,5 +58,5 @@ return {
 	TelescopeResultsVariable = { fg = "#a5bf82" },
 	TelescopeSelection = { bg = prompt_bg },
 	TelescopeSelectionCaret = { bg = "#272c42" },
-	TelescopeTitle = { bg = ts_bg, fg = "#cccccc" },
+	TelescopeTitle = { bg = preview_bg, fg = "#cccccc" },
 }

@@ -144,7 +144,7 @@ return {
 	StartifySpecial = { fg = palette.grey800 },
 	StartifyVar = { fg = palette.forest_green },
 	Statement = { fg = palette.tan800 },
-	StatusLine = { bg = palette.slateblue100, fg = palette.black200 },
+	StatusLine = { bg = palette.slateblue100, fg = palette.grey },
 	-- StatusLineNC = { bg = palette.black200, fg = palette.slateblue200 },
 	-- StatusLineTerm = { bg = palette.grey, fg = palette.black200 },
 	-- StatusLineTermNC = { bg = palette.black200, fg = palette.slateblue200 },
