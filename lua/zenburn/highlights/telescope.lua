@@ -23,7 +23,7 @@ return {
 	TelescopePreviewLink = { fg = "#a5bf82" },
 	TelescopePreviewMatch = { bg = "#e4aa80", fg = "#392313" },
 	TelescopePreviewMessage = { bg = preview_bg, fg = "#cccccc" },
-	TelescopePreviewMessageFillchar = { bg = preview_bg, fg = "#2b3354" },
+	TelescopePreviewMessageFillchar = { bg = preview_bg, fg = palette.slateblue300 },
 	TelescopePreviewNormal = { bg = preview_bg, fg = "#cccccc" },
 	TelescopePreviewPipe = { fg = palette.salmon },
 	TelescopePreviewRead = { fg = palette.salmon },
