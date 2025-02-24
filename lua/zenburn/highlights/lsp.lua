@@ -1,5 +1,7 @@
 local c = require("zenburn.palette")
 local colors = require("zenburn.colors")
+local color_ops = require("zenburn.color-ops")
+
 return {
 	-- ["@lsp.mod.constant.rust"] = c.Constant,
 	-- ["@lsp.type.builtinType.rust"] = { fg = colors.teal600 },
@@ -15,5 +17,5 @@ return {
 	LspInfoList = c.Conditional,
 	LspInfoTip = c.Comment,
 	LspInfoTitle = c.Title,
-	LspInlayHint = c.Comment,
+	LspInlayHint = { fg = color_ops.LightenDarkenColor(colors.seagreen300, 60) },
 }
