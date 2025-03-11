@@ -170,7 +170,7 @@ return {
 	Visual = { bg = palette.slateblue300 },
 	VisualNOS = { bg = palette.mightnightblue600 },
 	WarningMsg = { bg = palette.black200, fg = palette.salmon500 },
-	Whitespace = { fg = palette.mightnightblue600 },
+	Whitespace = { fg = palette.grey300 },
 	WildMenu = { bg = palette.tan1000, fg = palette.black200 },
 	WinSeparator = { bg = palette.slateblue100, fg = palette.slateblue100 },
 	ZenSpace = { bg = palette.salmon500 },
