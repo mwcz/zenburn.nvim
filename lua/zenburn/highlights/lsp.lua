@@ -17,5 +17,5 @@ return {
 	LspInfoList = c.Conditional,
 	LspInfoTip = c.Comment,
 	LspInfoTitle = c.Title,
-	LspInlayHint = { fg = color_ops.LightenDarkenColor(colors.seagreen300, 60) },
+	LspInlayHint = { fg = color_ops.LightenDarkenColor(colors.forest_green, -30) },
 }
