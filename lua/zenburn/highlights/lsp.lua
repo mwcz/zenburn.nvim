@@ -8,7 +8,6 @@ return {
 	["@lsp.type.lifetime.rust"] = { fg = colors.orange500 },
 	["@lsp.type.macro.rust"] = c.Macro,
 	["@lsp.type.decorator.rust"] = c.Macro,
-	["@lsp.type.struct.rust"] = c.Structure,
 	LspReferenceText = {},
 	LspReferenceRead = {},
 	LspReferenceWrite = {},

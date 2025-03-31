@@ -147,7 +147,7 @@ return {
 	-- StatusLineTermNC = { bg = palette.black200, fg = palette.slateblue200 },
 	StorageClass = { fg = palette.tan800 },
 	String = { fg = palette.salmon },
-	Structure = { fg = palette.yellow500 },
+	Structure = { fg = palette.tan800 },
 	Substitute = { bg = palette.orange500, fg = palette.brown300 },
 	SyntasticErrorSign = { bg = palette.dark_sand, fg = palette.salmon500 },
 	SyntasticStyleErrorSign = { bg = palette.dark_sand, fg = palette.salmon500 },
