@@ -19,7 +19,7 @@ return {
 	pale_blue = "#76c2d3",
 	teal_green = "#80d4aa",
 	black200 = "#1f1f1d",
-	grey800 = "#f7f7f5",
+	grey800 = "#dcdccc",
 	tan500 = "#cfbfaf",
 	tan800 = "#dfcfaf",
 	tan600 = "#dfdfbf",
