@@ -7,7 +7,7 @@ local results_bg = color_ops.LightenDarkenColor(palette.slateblue300, -10)
 
 return {
 	TelescopeBorder = { bg = preview_bg, fg = preview_bg },
-	TelescopeMatching = { fg = "#a5bf82" },
+	TelescopeMatching = { bg = palette.forest_green, fg = palette.dark_sand }, --"#a5bf82",  },
 	TelescopeMultiIcon = { fg = palette.teal900 },
 	TelescopeMultiSelection = { fg = palette.tan800 },
 	TelescopeNormal = { bg = preview_bg, fg = "#cccccc" },
