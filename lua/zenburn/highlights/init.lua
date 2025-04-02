@@ -16,4 +16,5 @@ return {
 	require("zenburn.highlights.yanky"),
 	require("zenburn.highlights.termdebug"),
 	require("zenburn.highlights.gitcommit"),
+	require("zenburn.highlights.html"),
 }
