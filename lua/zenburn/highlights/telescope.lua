@@ -22,7 +22,7 @@ return {
 	TelescopePreviewHyphen = { fg = "#242940" },
 	TelescopePreviewLine = { bg = "#272c42" },
 	TelescopePreviewLink = { fg = "#a5bf82" },
-	TelescopePreviewMatch = { bg = "#e4aa80", fg = "#392313" },
+	TelescopePreviewMatch = { bg = "#392313", fg = "#e4aa80" },
 	TelescopePreviewMessage = { bg = preview_bg, fg = "#cccccc" },
 	TelescopePreviewMessageFillchar = { bg = preview_bg, fg = colors.slateblue300 },
 	TelescopePreviewNormal = { bg = preview_bg, fg = "#cccccc" },
