@@ -2,16 +2,16 @@ local colors = require("zenburn.colors")
 local palette = require("zenburn.palette")
 local color_ops = require("zenburn.color-ops")
 
-local preview_bg = colors.slateblue200
-local prompt_bg = colors.slateblue300
-local results_bg = color_ops.LightenDarkenColor(colors.slateblue300, -10)
+local preview_bg = color_ops.LightenDarkenColor(colors.slateblue300, -5)
+local results_bg = color_ops.LightenDarkenColor(preview_bg, -10)
+local prompt_bg = color_ops.LightenDarkenColor(preview_bg, -15)
 
 return {
+	TelescopeNormal = { bg = preview_bg, fg = "#cccccc" },
 	TelescopeBorder = { bg = preview_bg, fg = preview_bg },
 	TelescopeMatching = palette.CurSearch, --"#a5bf82",  },
 	TelescopeMultiIcon = { fg = colors.teal900 },
-	TelescopeMultiSelection = { fg = colors.tan800 },
-	TelescopeNormal = { bg = preview_bg, fg = "#cccccc" },
+	TelescopeMultiSelection = { fg = colors.forest_green },
 	TelescopePreviewBlock = { fg = colors.salmon },
 	TelescopePreviewBorder = { bg = preview_bg, fg = preview_bg },
 	TelescopePreviewCharDev = { fg = colors.salmon },
@@ -57,7 +57,7 @@ return {
 	TelescopeResultsSpecialComment = { fg = "#a5bf82" },
 	TelescopeResultsTitle = { bg = results_bg, fg = results_bg },
 	TelescopeResultsVariable = { fg = "#a5bf82" },
-	TelescopeSelection = { bg = prompt_bg },
-	TelescopeSelectionCaret = { bg = "#272c42" },
+	TelescopeSelection = { bg = colors.slategreen300 },
+	TelescopeSelectionCaret = { bg = colors.forest_green },
 	TelescopeTitle = { bg = preview_bg, fg = "#cccccc" },
 }

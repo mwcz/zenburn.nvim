@@ -1,5 +1,8 @@
 local palette = require("zenburn.colors")
-local c = require("zenburn.colors")
+local color_ops = require("zenburn.color-ops")
+
+-- same as telescope's preview bg
+local float_bg = color_ops.LightenDarkenColor(palette.slateblue300, -5)
 
 return {
 	Boolean = { fg = palette.salmon },
@@ -75,9 +78,9 @@ return {
 	Error = { bg = palette.black200, fg = palette.salmon500 },
 	ErrorMsg = { bg = palette.black200, fg = palette.salmon500 },
 	Exception = { fg = palette.tan800 },
-	NormalFloat = { bg = palette.slategreen200, fg = palette.grey800 },
+	NormalFloat = { bg = float_bg, fg = palette.grey800 },
 	Float = { fg = palette.pale_blue },
-	FloatBorder = { bg = palette.slategreen200, fg = palette.slategreen500 },
+	FloatBorder = { fg = palette.slateblue400, bg = float_bg },
 	FloatTitle = { fg = palette.grey800 },
 	FoldColumn = { bg = palette.dark_sand, fg = palette.slateblue300 },
 	Folded = { bg = palette.dark_sand, fg = palette.slateblue400 },
@@ -105,19 +108,21 @@ return {
 	Normal = { bg = palette.black200, fg = palette.grey800 },
 	Operator = { fg = palette.slateblue500 },
 	Number = { fg = palette.pale_blue },
-	Pmenu = { bg = palette.dark_sand, fg = palette.grey800 },
+
+	Pmenu = { bg = palette.slateblue200, fg = palette.grey800 },
 	PmenuSbar = { bg = palette.slateblue200 },
 	PmenuSel = { bg = palette.slateblue400, fg = palette.grey800 },
 	PmenuThumb = { bg = palette.grey800 },
+
 	PreCondit = { fg = palette.orange500 },
 	PreProc = { fg = palette.salmon },
 	Question = { fg = palette.salmon },
 	QuickFixLine = { bg = palette.mightnightblue600, fg = palette.grey800 },
 	Repeat = { fg = palette.tan800 },
 	rustFoldBraces = { fg = palette.slateblue500 },
-	Search = { bg = palette.slateblue300 },
-	IncSearch = { bg = palette.slateblue600 },
-	CurSearch = { bg = palette.orange500, fg = palette.slateblue100 },
+	Search = { bg = palette.slateblue200 },
+	IncSearch = { bg = palette.slateblue300 },
+	CurSearch = { bg = palette.slateblue400 },
 	SignColumn = { bg = palette.dark_sand, fg = palette.slateblue300 },
 	SignifySignAdd = { bg = palette.dark_sand, fg = palette.salmon },
 	SignifySignChange = { bg = palette.dark_sand, fg = palette.teal600 },

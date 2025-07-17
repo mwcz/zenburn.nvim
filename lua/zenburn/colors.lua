@@ -15,10 +15,10 @@ return {
 	teal600 = "#84cfcb",
 
 	-- zenburn
-	dark_sand = "#262626",
+	dark_sand = "#252522",
 	pale_blue = "#76c2d3",
 	teal_green = "#80d4aa",
-	black200 = "#1f1f1d",
+	black200 = "#1c1c1a",
 	grey800 = "#dcdccc",
 	tan500 = "#cfbfaf",
 	tan800 = "#dfcfaf",
@@ -29,12 +29,15 @@ return {
 	yellow800 = "#efdd83",
 	orange300 = "#dfab88",
 	orange500 = "#e2a478",
+	orange600 = "#cc8747",
+	orange700 = "#e68d3c",
 
-	slategreen200 = "#383d38",
+	slategreen200 = "#353835",
+	slategreen300 = "#435243",
 	slategreen500 = "#516651",
 
-	slateblue100 = "#2c2e2e",
-	slateblue200 = "#393939",
+	slateblue100 = "#2c2e2f",
+	slateblue200 = "#39393a",
 	slateblue300 = "#434443",
 	slateblue400 = "#5d6262",
 	slateblue500 = "#757574",
