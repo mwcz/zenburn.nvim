@@ -7,6 +7,6 @@ return {
 	-- RedrawDebugClear = { fg = c.Cursor.fg, bg = c.Macro.fg },
 	-- debugBreakpointDisabled = { fg = c.Cursor.fg, bg = c.Macro.fg },
 	debugBreakpoint = { fg = palette.dark_sand, bg = palette.salmon500 },
-	debugPC = { fg = c.Cursor.fg, bg = c.Macro.fg },
+	debugPC = { bg = palette.slategreen250 },
 	Debug = { fg = palette.salmon },
 }

@@ -33,6 +33,7 @@ return {
 	orange700 = "#e68d3c",
 
 	slategreen200 = "#353835",
+	slategreen250 = "#293829",
 	slategreen300 = "#435243",
 	slategreen500 = "#516651",
 
