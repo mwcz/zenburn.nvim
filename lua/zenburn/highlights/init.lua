@@ -14,4 +14,7 @@ return {
 	require("zenburn.highlights.leap"),
 	require("zenburn.highlights.gitsigns"),
 	require("zenburn.highlights.yanky"),
+	require("zenburn.highlights.html"),
+	require("zenburn.highlights.rust"),
+	require("zenburn.highlights.termdebug"),
 }

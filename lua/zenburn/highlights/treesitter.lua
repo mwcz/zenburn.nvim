@@ -1,6 +1,5 @@
 local c = require("zenburn.palette")
 local colors = require("zenburn.colors")
-local color_ops = require("zenburn.color-ops")
 return {
 	TSNone = {},
 	TSError = {},
@@ -45,11 +44,7 @@ return {
 	TSKeywordReturn = { fg = c.Float.fg },
 	TSException = { fg = c.Exception.fg },
 	["@type"] = { fg = colors.tan800 },
-	["@variable.builtin.rust"] = { fg = c.Normal.fg },
 	["@variable"] = { fg = c.Normal.fg },
-	["@function.macro.rust"] = { fg = c.Macro.fg },
-	["@type.builtin.rust"] = { fg = colors.tan800 },
-	["@punctuation.special.rust"] = { fg = c.Operator.fg },
 	TSType = { fg = c.Delimiter.fg },
 	TSTypeBuiltin = { fg = c.Delimiter.fg },
 	TSInclude = { fg = c.Include.fg },

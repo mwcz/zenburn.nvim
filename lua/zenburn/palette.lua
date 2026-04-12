@@ -116,6 +116,8 @@ return {
 	QuickFixLine = { bg = palette.mightnightblue600, fg = palette.grey800 },
 	Repeat = { fg = palette.tan800 },
 	Search = { bg = palette.slateblue300 },
+	IncSearch = { bg = palette.slateblue300 },
+	CurSearch = { bg = palette.orange500, fg = palette.brown300 },
 	SignColumn = { bg = palette.dark_sand, fg = palette.slateblue300 },
 	SignifySignAdd = { bg = palette.dark_sand, fg = palette.salmon },
 	SignifySignChange = { bg = palette.dark_sand, fg = palette.teal600 },
