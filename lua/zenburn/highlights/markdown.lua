@@ -14,8 +14,16 @@ return {
 	["@markup.quote.markdown"] = { fg = colors.tan800 },
 	["@punctuation.special.markdown"] = { fg = colors.tan800 },
 
+	-- render-markdown.nvim heading background overrides (links to DiffText/DiffAdd/etc. by default)
+	RenderMarkdownH1Bg = { bg = colors.grey300 },
+	RenderMarkdownH2Bg = { bg = colors.grey300 },
+	RenderMarkdownH3Bg = { bg = colors.grey300 },
+	RenderMarkdownH4Bg = { bg = colors.grey300 },
+	RenderMarkdownH5Bg = { bg = colors.grey300 },
+	RenderMarkdownH6Bg = { bg = colors.grey300 },
+
 	-- TODO make heading markers grey
-	["@markup.heading"] = { fg = colors.grey500 }, -- headings, titles (including markers)
+	["@markup.heading"] = { bg = colors.grey300 }, -- headings, titles (including markers)
 
 	["@markup.link"] = { fg = colors.tan800 }, -- URL-style links
 	["@markup.link.label"] = { fg = colors.orange500 }, -- link, reference descriptions
