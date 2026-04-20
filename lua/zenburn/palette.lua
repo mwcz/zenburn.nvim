@@ -72,7 +72,7 @@ return {
 	EasyMotionTarget = { fg = palette.salmon },
 	EasyMotionTarget2First = { fg = palette.orange500 },
 	EasyMotionTarget2Second = { fg = palette.orange500 },
-	EndOfBuffer = { fg = palette.mightnightblue600 },
+	EndOfBuffer = { fg = palette.slateblue300 },
 	Error = { bg = palette.black200, fg = palette.salmon500 },
 	ErrorMsg = { bg = palette.black200, fg = palette.salmon500 },
 	Exception = { fg = palette.tan800 },
