@@ -25,6 +25,9 @@ return {
 	-- TODO make heading markers grey
 	["@markup.heading"] = { bg = colors.grey300 }, -- headings, titles (including markers)
 
+	["@markup.heading.markdown"] = { fg = colors.orange300  }, -- headings, titles (including markers)
+	["RenderMarkdownTableHead"] = { link = "Normal" },
+
 	["@markup.link"] = { fg = colors.tan800 }, -- URL-style links
 	["@markup.link.label"] = { fg = colors.orange500 }, -- link, reference descriptions
 	["@markup.link.url"] = { fg = colors.tan800 }, -- URL-style links
